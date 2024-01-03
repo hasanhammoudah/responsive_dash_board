@@ -13,6 +13,10 @@ class Assets {
   /// assets/images/card-receive.svg
   static const String imagesCardReceive = "assets/images/card-receive.svg";
 
+  /// Assets for imagesCardSend
+  /// assets/images/card-send.svg
+  static const String imagesCardSend = "assets/images/card-send.svg";
+
   /// Assets for imagesCategory2
   /// assets/images/category-2.svg
   static const String imagesCategory2 = "assets/images/category-2.svg";
@@ -36,6 +40,10 @@ class Assets {
   /// Assets for imagesFrame
   /// assets/images/Frame.svg
   static const String imagesFrame = "assets/images/Frame.svg";
+
+  /// Assets for imagesFrame2
+  /// assets/images/Frame2.svg
+  static const String imagesFrame2 = "assets/images/Frame2.svg";
 
   /// Assets for imagesGallery
   /// assets/images/gallery.svg
