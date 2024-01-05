@@ -27,12 +27,15 @@ class LatesTransactionListView extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
           children: items
-              .map((e) =>
-                  IntrinsicWidth(child: UserInfoListTile(userInfoModel: e)))
+              .map(
+                (e) => IntrinsicWidth(
+                  child: UserInfoListTile(userInfoModel: e),
+                ),
+              )
               .toList()),
     );
-   
-   // TODO Note Another way when i have many children
+
+    // TODO Note Another way when i have many children
     // return SizedBox(
     //   height: 80,
     //   child: ListView.builder(
