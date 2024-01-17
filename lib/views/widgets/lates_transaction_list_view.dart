@@ -26,29 +26,24 @@ class LatesTransactionListView extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
-          children: items
-              .map(
-                (e) => IntrinsicWidth(
-                  child: UserInfoListTile(userInfoModel: e),
-                ),
-              )
-              .toList()),
+        children: items
+            .map((e) =>
+                IntrinsicWidth(child: UserInfoListTile(userInfoModel: e)))
+            .toList(),
+      ),
     );
-
-    // TODO Note Another way when i have many children
     // return SizedBox(
     //   height: 80,
     //   child: ListView.builder(
-    //     itemCount: items.length,
-    //     scrollDirection: Axis.horizontal,
-    //     itemBuilder: (context, index) {
-    //       return IntrinsicWidth(
-    //         child: UserInfoListTile(
-    //           userInfoModel: items[index],
-    //         ),
-    //       );
-    //     },
-    //   ),
+    //       scrollDirection: Axis.horizontal,
+    //       itemCount: items.length,
+    //       itemBuilder: (context, index) {
+    //         return IntrinsicWidth(
+    //           child: UserInfoListTile(
+    //             userInfoModel: items[index],
+    //           ),
+    //         );
+    //       }),
     // );
   }
 }

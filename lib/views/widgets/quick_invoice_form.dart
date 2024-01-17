@@ -12,9 +12,8 @@ class QuickInvoiceForm extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              child: TitleTextField(
-                  title: 'Customer name', hint: 'Type customer name'),
-            ),
+                child: TitleTextField(
+                    title: 'Customer name', hint: 'Type customer name')),
             SizedBox(
               width: 16,
             ),
@@ -30,9 +29,8 @@ class QuickInvoiceForm extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              child: TitleTextField(
-                  title: 'Item name', hint: 'Type customer name'),
-            ),
+                child: TitleTextField(
+                    title: 'Item name', hint: 'Type customer name')),
             SizedBox(
               width: 16,
             ),
@@ -48,18 +46,18 @@ class QuickInvoiceForm extends StatelessWidget {
           children: [
             Expanded(
               child: CustomButton(
+                textColor: Color(0xFF4DB7F2),
                 backgroundColor: Colors.transparent,
-                textColor: Color(0xff4EB7F2),
               ),
             ),
             SizedBox(
-              height: 24,
+              width: 24,
             ),
             Expanded(
               child: CustomButton(),
             ),
           ],
-        ),
+        )
       ],
     );
   }

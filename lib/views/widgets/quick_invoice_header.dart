@@ -24,7 +24,7 @@ class QuickInvoiceHeader extends StatelessWidget {
             Icons.add,
             color: Color(0xff4EB7F2),
           ),
-        ),
+        )
       ],
     );
   }
